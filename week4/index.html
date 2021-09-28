@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Homework Media Player</title>
+  </head>
+  <body>
+
+    <h1>Homework Media Player</h1>
+
+    <div class="select">
+      <button id="light" onclick="lightMode()" type="button" name="button">light mode</button>
+      <p>Please select a type of video.</p>
+    </div>
+
+
+    <div class="buttons">
+      <button id="blueButton" onclick="showMusic()" type="button" name="button">Music</button>
+
+      <button id="yellowButton" onclick="showAmbience()" type="button" name="button">Ambience</button>
+
+      <button id="greenButton" onclick="showLofi()" type="button" name="button">Lo-Fi</button>
+
+    </div>
+
+
+
+    <div class="hiddenVid" id="musicVideo">
+      <video width="1024" height="576" controls>
+        <source src="vids/musicVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="hiddenVid" id="ambienceVideo">
+      <video width="1024" height="576" controls>
+        <source src="vids/ambienceVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="hiddenVid" id="lofiVideo">
+      <video width="1024" height="576" controls>
+        <source src="vids/lofiVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </body>
+</html>
