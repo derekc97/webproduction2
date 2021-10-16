@@ -1,0 +1,26 @@
+body {
+  background-color: #25274d;
+}
+
+h1 {
+  font-family: 'verdana', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.hwBar {
+  padding: 10px;
+  font-family: 'helvetica', sans-serif;
+  text-align: center;
+}
+
+.hwLink {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.hwLink:hover {
+  color: #aaabb8;
+}
