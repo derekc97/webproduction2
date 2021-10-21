@@ -1,0 +1,26 @@
+.pokemon-here {
+      background-color: #C66023
+}
+
+.sprite {
+  height: 250px;
+  align-self: center;
+}
+
+.name {
+  font-family: "impact";
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+.type {
+  font-family: sans-serif;
+  height: 10px;
+  text-align: center;
+}
+
+p {
+  border: 4px solid black;
+}
